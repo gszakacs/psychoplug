@@ -21,6 +21,7 @@
 #ifndef _mqtt_h
 #define _mqtt_h
 
+void messageReceived(String& topic, String& payload);
 void StartMQTT();
 void ManageMQTT();
 void StopMQTT();
